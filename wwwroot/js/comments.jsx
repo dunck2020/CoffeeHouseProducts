@@ -128,7 +128,6 @@ function createRemarkable() {
     return new remarkable();
 }
 
-
 //style
 
 const commentBoxStyle = {
