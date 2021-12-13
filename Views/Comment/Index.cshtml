@@ -3,8 +3,15 @@
     <link rel="stylesheet" href="~/css/site.css" />
     <title>Comments</title>
 </head>
+
 <body>
+
     <div id="content"></div>
+    <div>
+        <form method="get">
+            <button class="btn btn-dark btn-lg" type="submit" asp-controller="CommentEdit" asp-action="Index">Edit Comments</button>
+        </form>
+    </div>
     <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.0/umd/react.development.js"></script>
     <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.0/umd/react-dom.development.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js"></script>
